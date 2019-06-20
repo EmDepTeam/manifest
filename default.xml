@@ -9,7 +9,10 @@
 	<project name="linux4.4.y" path="kernel"/>
 	<project name="buildroot" path="buildroot"/>
 
-	<project name="tools" path="tools"/>
+	<project name="tools" path="tools">
+		<linkfile dest="envsetup.sh" src="envsetup.sh"/>
+	</project>
+
 	<project name="image_file" path="image_file"/>
 
 </manifest>
