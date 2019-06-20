@@ -5,6 +5,8 @@
 
 	<default remote="origin" revision="master" />
 
+	<project name="uboot-2018.07" path="uboot"/>
 	<project name="linux4.4.y" path="kernel"/>
+	<project name="buildroot" path="buildroot"/>
 
 </manifest>
